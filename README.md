@@ -1,20 +1,21 @@
+### Basic Todo Flask Application
+
 ```text
-Basic Todo Flask Application
 - add Todo
 - delete Todo
 - update Todo
 ```
 
+### setup environment
 ```text
-# setup environment
 $ sudo pip3 install virtualenv
 $ virtualenv env
 $ source env/bin/activate
 $ pip3 install flask flask-sqlalchemy
 ```
 
+### create sqlite db
 ```text
-# create sqlite db
 $ source env/bin/activate
 $ python
 >>> from app import db
